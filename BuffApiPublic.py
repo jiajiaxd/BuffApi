@@ -8,7 +8,7 @@
 #                                 | |
 #                                 |_|
 # Buff-Api By jiajiaxd(https://github.com/jiajiaxd)
-# 请在遵守GPL-3.0协议的前提下使用本API。
+# 请在遵守GPL-2.0协议的前提下使用本API。
 # 仅供学习交流使用，所造成的一切后果将由使用者自行承担！
 
 import json
