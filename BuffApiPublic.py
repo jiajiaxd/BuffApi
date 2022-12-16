@@ -94,7 +94,7 @@ class BuffAccount:
                   'sort_by': sort_by}
         if sort_by != 'default':
             return json.loads(self.session.get('https://buff.163.com/api/market/goods/sell_order', params=params,
-                                               headers=get_random_header()).text).get('data')
+                                               headers=get_random_header(), proxies=proxy).text).get('data')
         else:
             return json.loads(requests.get('https://buff.163.com/api/market/goods/sell_order', params=params,
                                            headers=get_random_header(), proxies=proxy).text).get('data')
